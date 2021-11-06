@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.texture-paper {
+    background: url("img/la-chouette-agence-banniere.jpg");
+}
+
+.bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.page-container .row {
+    width: 100%;
+    background-color: #575757!important;
+    opacity: 80%;
+    padding: 20px 40px 40px 40px;
+    margin: 0;
+}
+
+.row .col-sm {
+    width: 100%;
+}
+
+.row .col-sm h2 {
+    font-size: 50px;
+    line-height: 2em;
+    color:#ffe3a8!important;
+}
+
+.row .col-sm p {
+    font-size: 18px;
+    color: white!important;
+}
+
+/* .row .col-sm-6 {
+    width: 100%;
+    display: block;
+} */
+
+/* .col-sm-6 form button:hover {
+    color: rgba(255, 255, 255, .9);
+    border: 3px solid white;
+} */
+
+.d-bloc a .icon-md {
+    color:black;
+}
+
+.d-bloc a:hover .icon-md {
+    color: #90250E;
+}
+
+.form-control {
+    border-color: rgba(0, 0, 0, .1);
+    box-shadow: none;
+}
+
+label {
+    font-family: "helvetica";
+    font-weight: 700;
+    font-size: 18px;
+    color: #90250E!important;
+}
+
+p.col-sm-7 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #90250E!important;
+    margin: 15px;
+    /* padding: 0px 30px; */
+}
+
+@media (max-width: 2300px) {
+    .container {
+        width: 100%;
+    }
+    .b-parallax {
+        background-attachment: scroll;
+    }
+    .page-container,
+    #hero-bloc {
+        overflow-x: hidden;
+        position: relative;
+    }
+    .bloc {
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
+    }
+    .bloc-group,
+    .bloc-group .bloc {
+        display: block;
+        width: 100%;
+    }
+    .bloc-fill-screen .fill-bloc-top-edge,
+    .bloc-fill-screen .fill-bloc-bottom-edge {
+        padding: 0 20px;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
+    }
+}

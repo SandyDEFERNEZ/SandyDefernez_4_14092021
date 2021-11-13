@@ -717,7 +717,7 @@ h4 {
 }
 
 .white {
-    color: #ffc650!important;
+    color: #EEE067!important;
 }
 .black {
     color:black!important;
@@ -740,7 +740,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #575757!important;
+    background-color: #686159!important;
     opacity: 80%;
     padding: 40px 40px 40px 40px;
 }
@@ -759,7 +759,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f4b5a7;
+    background-color: rgb(135,59,63);
 }
 
 .tc-white {
@@ -768,15 +768,15 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #f4b5a7;
-    color: black!important;
-    border: 2px solid black;
+    background: rgb(135,59,63);
+    color: white!important;
+    border: 2px solid white;
 }
 
 .btn-atomic-tangerine:hover {
-    background: black!important;
-    color: #f4b5a7!important;
-    border: 4px solid #f4b5a7;
+    background: white!important;
+    color: rgb(135,59,63)!important;
+    border: 4px solid rgb(135,59,63);
 }
 
 .ltc-white {
@@ -784,11 +784,11 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #E6CFCF!important;
+    color: #EEE067!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: rgb(135,59,63)!important;
 }
 
 .ltc-atomic-tangerine:hover {

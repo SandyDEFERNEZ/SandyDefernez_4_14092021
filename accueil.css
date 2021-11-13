@@ -16,7 +16,7 @@ p {
 p.citation {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
-    color:#5c2a1f!important;
+    color:rgb(135,59,63)!important;
 }
 p.auteur {
     font-size: 12px;
@@ -35,11 +35,11 @@ h2 {
 }
 
 .d-bloc a .icon-md {
-    color:black;
+    color: white;
 }
 
 .d-bloc a:hover .icon-md {
-    color: #90250E;
+    color: black;
 }
 
 label 
@@ -70,5 +70,5 @@ section.description .row .col-xs-12 p.citation {
 
 .col-sm-4 .center {
     font-weight: 700;
-    color: #90250E;
+    color: rgb(135,59,63);
 }

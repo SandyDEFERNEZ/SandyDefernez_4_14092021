@@ -30,7 +30,7 @@ body {
 .row .col-sm h2 {
     font-size: 50px;
     line-height: 2em;
-    color:#ffe3a8!important;
+    color:black!important;
 }
 
 .row .col-sm p {
@@ -49,11 +49,11 @@ body {
 } */
 
 .d-bloc a .icon-md {
-    color:black;
+    color:white;
 }
 
 .d-bloc a:hover .icon-md {
-    color: #90250E;
+    color: black;
 }
 
 .form-control {
@@ -65,13 +65,13 @@ label {
     font-family: "helvetica";
     font-weight: 700;
     font-size: 18px;
-    color: #90250E!important;
+    color: rgb(135,59,63)!important;
 }
 
 p.col-sm-7 {
     font-weight: 700;
     font-size: 18px;
-    color: #90250E!important;
+    color: rgb(135,59,63)!important;
     margin: 15px;
     /* padding: 0px 30px; */
 }

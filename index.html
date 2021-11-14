@@ -18,7 +18,21 @@
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
 
-    <title>La chouette agence/Page d'accueil</title>
+	<title>La chouette agence/Page d'accueil</title>
+	<script type="application/ld+json">
+		{
+		"@context": "https://schema.org/",
+		"@type": "Web design",
+		"adress": {
+			"@type": "PostalAdress",
+			"addressLocality": "Lyon"
+			"streetAddress": "2 place Sathonay"
+		},
+		"name": "La Chouette agence"		
+		"description": "Agence web design à Lyon, aidant les particuliers et entreprises à créer leur site ou à les relooker",
+		"email": "contact@lachouetteagence.com"
+		}
+	</script>
 </head>
 
 <body>
@@ -28,7 +42,7 @@
 			<nav class="navbar row">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="index.html">
-						<img src="img/la-chouette-agence.jpg" alt="logo de la-chouette-agence, agence web située à Lyon" height="70" />
+						<img src="img/la-chouette-agence.jpg" alt="bannière de la chouette agence, agence web située à Lyon" height="70" />
 					</a>
 					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
@@ -56,7 +70,7 @@
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace">
 					<div class="col-sm-12">
-						<img src="img/logo.png" alt="La chouette agence, agence web Lyon, création logo Lyon" class="center-block image-resize-mode" width="200" />
+						<img src="img/logo.jpg" alt="logo de l'agence" class="center-block image-resize-mode" width="200" />
 						<h1 class="text-center hero-bloc-text tc-white">
 							La chouette agence
 						</h1>

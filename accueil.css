@@ -5,11 +5,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-/* section.description .row .col-xs-12 {
 
-} */
 p {
-    font-size: 18px;
+    font-size: 16px;
     color: black!important;
 }
 
@@ -20,18 +18,7 @@ p.citation {
 }
 p.auteur {
     font-size: 12px;
-    color: #7b673a!important;
-}
-
-h1 {
-    color: #333333!important;
-    font-size: 26px;
-    font-family: "Open Sans";
-}
-
-h2 {
-    font-size: 24px;
-    line-height: 1.4em;
+    color: rgb(135,59,63)!important;
 }
 
 .d-bloc a .icon-md {
@@ -55,20 +42,11 @@ section.description .row .col-xs-12 p.citation {
     font-style: italic;
 }
 
-/* .icon-lg {
-    font-size: 300px!important;
-} */
-
-/* .l-bloc a .icon-lg {
-    font-weight: 700;
-    color: #90250E;
-} */
-
-.d-bloc a .icon-lg {
-
-}
-
 .col-sm-4 .center {
     font-weight: 700;
     color: rgb(135,59,63);
+}
+
+.row .col-sm-12 p {
+    color: white!important;
 }

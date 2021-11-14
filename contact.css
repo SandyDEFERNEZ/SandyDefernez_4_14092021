@@ -27,14 +27,19 @@ body {
     width: 100%;
 }
 
-.row .col-sm h2 {
+.row .col-sm h1 {
     font-size: 50px;
+    font-weight: 700;
     line-height: 2em;
-    color:black!important;
+    color: black!important;
 }
 
 .row .col-sm p {
     font-size: 18px;
+    color: white!important;
+}
+
+.row .col-sm-12 p {
     color: white!important;
 }
 
@@ -73,7 +78,6 @@ p.col-sm-7 {
     font-size: 18px;
     color: rgb(135,59,63)!important;
     margin: 15px;
-    /* padding: 0px 30px; */
 }
 
 @media (max-width: 2300px) {

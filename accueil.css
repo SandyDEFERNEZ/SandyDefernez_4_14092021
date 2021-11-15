@@ -21,12 +21,20 @@ p.auteur {
     color: rgb(135,59,63)!important;
 }
 
+.d-bloc p.reseau {
+    color: white;
+}
+
+.d-bloc p.reseau :hover {
+    color: black!important;
+}
+
 .d-bloc a .icon-md {
-    color: black;
+    color: white;
 }
 
 .d-bloc a:hover .icon-md {
-    color:white;
+    color: black;
 }
 
 label 

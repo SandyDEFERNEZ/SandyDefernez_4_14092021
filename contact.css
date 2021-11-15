@@ -43,22 +43,12 @@ body {
     color: white!important;
 }
 
-/* .row .col-sm-6 {
-    width: 100%;
-    display: block;
-} */
-
-/* .col-sm-6 form button:hover {
-    color: rgba(255, 255, 255, .9);
-    border: 3px solid white;
-} */
-
 .d-bloc a .icon-md {
-    color:white;
+    color:black;
 }
 
 .d-bloc a:hover .icon-md {
-    color: black;
+    color: white;
 }
 
 .form-control {

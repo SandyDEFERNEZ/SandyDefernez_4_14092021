@@ -22,11 +22,11 @@ p.auteur {
 }
 
 .d-bloc a .icon-md {
-    color: white;
+    color: black;
 }
 
 .d-bloc a:hover .icon-md {
-    color: black;
+    color:white;
 }
 
 label 
